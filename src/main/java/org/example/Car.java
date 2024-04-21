@@ -8,7 +8,7 @@ public class Car {
     String fuelType;
     int numberOfCycles;
 
-    Engine engine;
+    Engine engine; // this is composition example
 
     void changeEngin(Engine engine) {
         this.engine = engine;

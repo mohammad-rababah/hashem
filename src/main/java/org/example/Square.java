@@ -7,9 +7,6 @@ public class Square extends Shape{
         area = side * side;
     }
     Square(){
-       side = 1;
-    }
-    Square(double side){
-        this.side = side;
+
     }
 }

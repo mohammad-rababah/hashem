@@ -5,4 +5,8 @@ public class Triangle extends Shape{
     double height;
 
 
+    @Override
+    void calculateArea() {
+
+    }
 }
