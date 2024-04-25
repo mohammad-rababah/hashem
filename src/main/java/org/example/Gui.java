@@ -63,11 +63,9 @@ public class Gui extends JFrame {
 
         setVisible(true);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        checkDouble(2);
-    }
-    void checkDouble(double x){
 
     }
+
     public static void main(String[] args) {
         new Gui();
     }
